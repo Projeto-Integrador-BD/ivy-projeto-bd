@@ -2,6 +2,7 @@
 # pip install pyaudio
 # depois instala o speech_recognition: 
 # pip install SpeechRecognition
+#test
 import speech_recognition as sr
 
 # cria uma variavel para reconhecimento do audio
