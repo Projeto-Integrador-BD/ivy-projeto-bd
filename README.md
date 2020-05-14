@@ -1,3 +1,3 @@
 Projeto Integrador de BD
 
-Volta as aulas
+Volta as aulas remotamente
