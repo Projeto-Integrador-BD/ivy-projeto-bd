@@ -16,5 +16,6 @@
 * **Informação de clima:** Previsão atual do tempo, verificando se vai fazer sol ou chuva.
 * **Pesquisa:** pesquisar informações no Google.
 
-**Apresentação:** https://youtu.be/mC4Ij5v4oQo
+### 15/05/2020 **Apresentação:** https://youtu.be/mC4Ij5v4oQo
+Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
 
