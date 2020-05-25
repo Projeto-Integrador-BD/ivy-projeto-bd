@@ -2,7 +2,7 @@
 
 ### Funcionalidades Assistente Virtual
 
-Explicação sobre branches 12356
+Explicação sobre branches 12356677
 
 **Integrantes:** Carlos Henrique / Helen Alevato / José Rangel / Marcelo Fernandes / Pedro Henrique.
 
