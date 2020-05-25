@@ -2,6 +2,8 @@
 
 ### Funcionalidades Assistente Virtual
 
+Explicação sobre branches
+
 **Integrantes:** Carlos Henrique / Helen Alevato / José Rangel / Marcelo Fernandes / Pedro Henrique.
 
 **Integrantes Masters:** Everton/ Kim
