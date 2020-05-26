@@ -17,3 +17,4 @@ with sr.Microphone() as source:
     print(reconhecedor.recognize_google(audio, language="pt-BR"))
 
 print("FIM DO PROGRAMA")
+print("teste")
