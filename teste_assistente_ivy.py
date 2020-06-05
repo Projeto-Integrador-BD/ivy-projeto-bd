@@ -20,7 +20,6 @@ def record_audio(repeat_talk = False, language = 'pt-BR'):
     with sr.Microphone() as source:
         audio = r.listen(source)
         voice_data = ''
-
         try:
             voice_data = r.recognize_google(audio, language=language)
             if (voice_data != '' and repeat_talk):
