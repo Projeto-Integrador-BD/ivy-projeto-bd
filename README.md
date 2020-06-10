@@ -5,7 +5,7 @@
 
 **Integrantes:** Carlos Henrique / Helen Alevato / José Rangel / Marcelo Fernandes / Pedro Henrique.
 
-**Integrantes Masters:** Everton/ Kim
+**Integrante Masters:** Everton
 
 **Nome assistente virtual:** IVY
 
@@ -17,6 +17,14 @@
 * **Informação de clima:** Previsão atual do tempo, verificando se vai fazer sol ou chuva.
 * **Pesquisa:** pesquisar informações no Google.
 
-### 15/05/2020 **Apresentação:** https://youtu.be/mC4Ij5v4oQo
-Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
+### Entrega: 15/05/2020 **Apresentação:** https://youtu.be/mC4Ij5v4oQo
+* Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
+
+### Entrega: 01/06/2020 **Apresentação por vídeo conferência com os professores**
+* **Sintetizador de voz:** ele é o que converte texto ortográfico em fala;
+* **Funcionalidade de pesquisa:** para pesquisar informações no Google.
+
+### Entrega: 14/06/2020 **Apresentação**
+* **Funcionalidade Calcule:** faz cálculos simples de adição, subtração, multiplicação e divisão;
+* **Funcionalidade de Gerar Senha:** gera uma senha aleatória, contendo letras, números e símbolos.
 
