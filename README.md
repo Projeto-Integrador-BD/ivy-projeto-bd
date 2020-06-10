@@ -17,15 +17,15 @@
 * **Pesquisa:** pesquisar informações no Google.
 
 ### Entrega: 15/05/2020 **Apresentação:** https://youtu.be/mC4Ij5v4oQo
-Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
+* Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
 
 ### Entrega: 01/06/2020 **Apresentação por vídeo conferencia com os professores**
 Para essa entrega foram apresentados:
-* **Sintetizador de voz e que é o que converte texto ortográfico em fala;
-* **Funcionalidade de Pesquisa no Google.
+* **Sintetizador de voz:** ele que é o que converte texto ortográfico em fala;
+* **Funcionalidade de Pesquisa:** poder pesquisar informações no Google.
 
 ### Entrega: 14/06/2020 **Apresentação**
-* **Funcionalidade Calcule, faz calculos simples de adição, subtração, multiplicação e divisão;
-* **Funcionalidade de Gerar Senha, gera uma senha aleatória, contendo letras, numeros e símbolos.
+* **Funcionalidade Calcule:** faz calculos simples de adição, subtração, multiplicação e divisão;
+* **Funcionalidade de Gerar Senha:** gera uma senha aleatória, contendo letras, numeros e símbolos.
 
 
