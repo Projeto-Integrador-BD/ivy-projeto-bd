@@ -4,7 +4,7 @@
 
 **Integrantes:** Carlos Henrique / Helen Alevato / José Rangel / Marcelo Fernandes / Pedro Henrique.
 
-**Integrantes Masters:** Everton/ Kim
+**Integrantes Masters:** Everton
 
 **Nome assistente virtual:** IVY
 
@@ -20,7 +20,6 @@
 * Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
 
 ### Entrega: 01/06/2020 **Apresentação por vídeo conferencia com os professores**
-Para essa entrega foram apresentados:
 * **Sintetizador de voz:** ele que é o que converte texto ortográfico em fala;
 * **Funcionalidade de Pesquisa:** poder pesquisar informações no Google.
 
