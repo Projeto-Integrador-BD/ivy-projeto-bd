@@ -19,11 +19,11 @@
 ### Entrega: 15/05/2020 **Apresentação:** https://youtu.be/mC4Ij5v4oQo
 * Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
 
-### Entrega: 29/05/2020 **Apresentação por vídeo conferencia com os professores**
+### Entrega: 29/05/2020 **Apresentação por videoconferência com os professores**
 * **Sintetizador de voz:** ele que é o que converte texto ortográfico em fala;
 * **Funcionalidade de Pesquisa:** poder pesquisar informações no Google.
 
-### Entrega: 12/06/2020 **Apresentação**
+### Entrega: 12/06/2020 **Apresentação por videoconferência com os professores**
 * **Funcionalidade Calcule:** faz calculos simples de adição, subtração, multiplicação e divisão;
 * **Funcionalidade de Gerar Senha:** gera uma senha aleatória, contendo letras, numeros e símbolos.
 
