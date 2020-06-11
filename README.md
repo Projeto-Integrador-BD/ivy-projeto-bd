@@ -2,9 +2,16 @@
 
 ### Funcionalidades Assistente Virtual
 
+<<<<<<< HEAD
 **Integrantes:** Carlos Henrique / Helen Alevato / José Rangel / Marcelo Fernandes / Pedro Henrique.
 
 **Integrantes Masters:** Everton
+=======
+
+**Integrantes:** Carlos Henrique / Helen Alevato / José Rangel / Marcelo Fernandes / Pedro Henrique.
+
+**Integrante Masters:** Everton
+>>>>>>> 8ce782e959178bb687571a1341415fec11508ffa
 
 **Nome assistente virtual:** IVY
 
@@ -19,6 +26,7 @@
 ### Entrega: 15/05/2020 **Apresentação:** https://youtu.be/mC4Ij5v4oQo
 * Para essa entrega fizemos o vídeo explicando as funcionalidades que a assistente de voz terá e o início da programação em Python, que mostra o reconhecimento de voz pelo computador.
 
+<<<<<<< HEAD
 ### Entrega: 29/05/2020 **Apresentação por vídeo conferencia com os professores**
 * **Sintetizador de voz:** ele que é o que converte texto ortográfico em fala;
 * **Funcionalidade de Pesquisa:** poder pesquisar informações no Google.
@@ -27,4 +35,13 @@
 * **Funcionalidade Calcule:** faz calculos simples de adição, subtração, multiplicação e divisão;
 * **Funcionalidade de Gerar Senha:** gera uma senha aleatória, contendo letras, numeros e símbolos.
 
+=======
+### Entrega: 29/05/2020 **Apresentação por vídeo conferência com os professores**
+* **Sintetizador de voz:** ele é o que converte texto ortográfico em fala;
+* **Funcionalidade de pesquisa:** para pesquisar informações no Google.
+
+### Entrega: 12/06/2020 **Apresentação**
+* **Funcionalidade Calcule:** faz cálculos simples de adição, subtração, multiplicação e divisão;
+* **Funcionalidade de Gerar Senha:** gera uma senha aleatória, contendo letras, números e símbolos.
+>>>>>>> 8ce782e959178bb687571a1341415fec11508ffa
 
