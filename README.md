@@ -26,4 +26,4 @@
 
 ### Entrega: 12/06/2020 **Apresentação**
 * **Funcionalidade Calcule:** faz cálculos simples de adição, subtração, multiplicação e divisão;
-* **Funcionalidade de Gerar Senha:** gera uma senha aleatória, contendo letras, números e símbolos.
+
