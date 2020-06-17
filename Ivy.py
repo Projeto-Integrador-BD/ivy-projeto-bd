@@ -39,7 +39,8 @@ def ivy_speak(audio_string):
 def respond(voice_data):
         if 'calculadora' in voice_data:
             ivy_speak('Ok, me diga qual operação deseja realizar? somar, subtrair, mutiplicar ou dividir?')
-            if 'somar' in record_audio():
+            voice_data = record_audio()
+            if 'somar' in voice_data:
                 ivy_speak('somar, ok, então será uma operação de adição')
             elif 'subtrair' in record_audio():
                 ivy_speak('subtrair, ok, então será uma operação de subtração')
