@@ -10,28 +10,30 @@
 # 4 - Cálculo dos dois números
 # 5 - Ivy Responde resultado
 
-operacao = input("Qual operação (+,-,*,/) você deseja fazer? ")
-num1 = int(input("Pode falar o primeiro número: "))
-num2 = int(input("Agora você pode falar o segundo número: "))
+operacao = input("Qual operação (adição, subtração,multiplicação,divisão) você deseja fazer? ")
+num1 = float(input("Pode falar o primeiro número: "))
+num2 = float(input("Agora você pode falar o segundo número: "))
 
-if operacao == '+':
+if operacao == 'adição':
     total = num1 + num2
     print("O Resultado é: ")
     print(total)
-elif operacao == '-':
+elif operacao == 'subtração':
     total = num1 - num2
     print("O Resultado é: ")
     print(total)
-elif operacao == '*':
+elif operacao == 'multiplicação':
     total = num1 * num2
     print("O Resultado é: ")
     print(total)
-elif operacao == '/':
+elif operacao == 'divisão':
     total = num1 / num2
     print("O Resultado é: ")
     print(total)
 else:
     print("Calculo inválido, por favor fale qual operação deseja fazer")
+
+
 
 
 
