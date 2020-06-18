@@ -45,9 +45,4 @@ with sr.Microphone() as source:
             engine.runAndWait()
 
 
-# gerar senha aleatória 
-# quando for perguntado gerar senha deve-se aparecer na tela ( Com quantos números?)
-# após a identificação do número deve-se gerar a senha com os números respectivos
-
-
 print("FIM DO PROGRAMA")
