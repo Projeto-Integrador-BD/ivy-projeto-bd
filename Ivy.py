@@ -13,10 +13,13 @@ from gtts import gTTS
 r = sr.Recognizer()
 
 
-def record_audio():
+def record_audio(ask=False):
     with sr.Microphone() as source:
+        if ask:
+            ivy_speak(ask)
         audio = r.listen(source)
         voice_data = ''
+
         try:
             voice_data = r.recognize_google(audio, language="pt-BR")
             print(voice_data)
@@ -39,26 +42,31 @@ def ivy_speak(audio_string):
 
 def respond(voice_data):
         if 'calculadora' in voice_data:
-            ivy_speak('Ok, me diga qual operação deseja realizar? somar, subtrair, mutiplicar ou dividir?')
-            voice_data = record_audio()
-            if 'somar' in voice_data:
-                ivy_speak('Pode falar o primeiro numero')
-                voice_data = record_audio()
-                num1 = float(voice_data)
-                ivy_speak('Pode falar o segundo numero')
-                voice_data = record_audio()
-                num2 = float(voice_data)
+
+            ivy_speak('Informe o primeiro numero')
+            num1 = float(record_audio())
+            ivy_speak('Informe o segundo numero')
+            num2 = float(record_audio())
+            ivy_speak('Ok, agora me diga qual operação deseja realizar? somar, subtrair, mutiplicar ou dividir?')
+            operacao = record_audio()
+
+            if 'somar' in operacao:
                 total = num1 + num2
-                ivy_speak('O resultado é:', str(total))
-            elif 'subtrair' in voice_data:
-                ivy_speak('subtrair, ok, então será uma operação de subtração')
-            elif 'multiplicar' in voice_data:
-                ivy_speak('multiplicar, ok, então será uma operação de multiplicação')
-            elif 'dividir' in voice_data:
-                ivy_speak('dividir, ok, então será uma operação de divisão')
-        return respond(voice_data)
+                ivy_speak('O resultado é: '+str(total))
+
+            if 'subtrair' in operacao:
+                total = num1 - num2
+                ivy_speak('O resultado é: '+str(total))
+
+            if 'multiplicar' in operacao:
+                total = num1 * num2
+                ivy_speak('O resultado é: '+str(total))
+
+            if 'dividir' in operacao:
+                total = num1 / num2
+                ivy_speak('O resultado é: '+str(total))
+
 
 ivy_speak('O que posso ajudar?')
 voice_data = record_audio()
 respond(voice_data)
-
