@@ -26,4 +26,9 @@
 ### Entrega: 12/06/2020 **Apresentação por videoconferência com os professores**
 * **Funcionalidade de Gerar Senha:** gera uma senha aleatória, contendo letras, numeros e símbolos.
 
+### Entrega: 26/06/2020 **Apresentação por videoconferência com os professores**
+* **Funcionalidade Calcule:** faz calculos simples de adição, subtração, multiplicação e divisão;
+* **Funcionalidade Cronometro de atenção:** auxilia o usuário a mater o foco;
+* **Funcionalidade Informação de clima:** previsão atual do tempo, verificando se vai fazer sol ou chuva.
+
 
