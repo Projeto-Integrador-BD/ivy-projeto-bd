@@ -9,6 +9,7 @@ import speech_recognition as sr
 reconhecedor = sr.Recognizer()
 
 with sr.Microphone() as source:
+    print('Fala')
     # passar o que o programa ouviu para a variavel audio
     audio = reconhecedor.listen(source)
 
