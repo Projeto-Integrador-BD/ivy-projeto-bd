@@ -2,9 +2,10 @@
 # pip install pyaudio
 # depois instala o speech_recognition: 
 # pip install SpeechRecognition
-import speech_recognition as sr
 import pyttsx3
-from gerador_senha import gerar_senha
+import speech_recognition as sr
+
+from util.gerador_senha import gerar_senha
 
 # Inicializa o sintetizador de voz
 engine = pyttsx3.init()
