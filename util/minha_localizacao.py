@@ -1,8 +1,7 @@
-import re
 import json
-from urllib import request
+import requests
 
 def get_localizacao_atual_by_ip():
-    url = 'http://ipinfo.io/json'
-    response = request.urlopen(url)
-    data = json.load(response)
+    r = requests.get("http://ipinfo.io/json")
+    data = json.loads(r.text)
+    return data
