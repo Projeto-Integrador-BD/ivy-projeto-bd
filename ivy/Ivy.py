@@ -3,8 +3,12 @@ import random
 from util import audio
 from ivy.funcoes_ivy import ivy_calculadora, ivy_gerar_senha, ivy_clima, ivy_cronometro, ivy_pesquisa
 
+
 class Ivy():
     nome = "Ivy"
+    def __init__(self):
+        self.falar("Iniciando")
+        self.falar("Oi, eu sou a aivi, Como posso te ajudar'")
 
     def falar(self, audio_string):
         audio.talk(audio_string)
@@ -55,7 +59,7 @@ class Ivy():
 
 
     def rand_tratamento(self):
-        num = random.randrange(1, 6)
+        num = random.randrange(1, 8)
         if(num == 1):
             return "meu rei"
         elif(num == 2):
@@ -67,9 +71,13 @@ class Ivy():
         elif(num == 5):
             return "meu fofucho"
         elif(num == 6):
-            return "meu rei"
+            return "meu anjo"
         elif(num == 7):
             return "meu cosmos"
+        elif (num == 8):
+            return "meu tesouro"
+        elif (num == 9):
+            return "meu belo"
 
 
 
