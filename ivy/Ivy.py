@@ -31,7 +31,7 @@ class Ivy():
             self.entender(voice_data)
         elif voice_data == '' and not aguardar_chamar:
             self.falar("Desculpa, eu não consegui compreender")
-            voice_data = self.ouvir(False)
+            voice_data = self.ouvir(False) #chama a funcao ouvir recursivamente, até compreender o que foi dito
         return  voice_data
 
 
