@@ -16,7 +16,7 @@ def get_texto_previsao_tempo(latitude, longitude):
     previsao_texto += ", a temperatura máxima é de " + previsao_hoje['maxima'] + ' graus'
     previsao_texto += ", a minima é de " + previsao_hoje['minima'] + " graus celsius"
     previsao_texto += ", essa é a previsão para " + clima['cidade']['nome']
-    previsao_texto += ", essa informação de clima é do CP TEC e INPE"
+    previsao_texto += ", informações do INPE"
     return previsao_texto
 
 def get_descricao_tempo_by_sigla(sigla):

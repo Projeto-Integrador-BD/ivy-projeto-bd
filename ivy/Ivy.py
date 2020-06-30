@@ -8,7 +8,7 @@ class Ivy():
     nome = "Ivy"
     def __init__(self):
         self.falar("Iniciando")
-        self.falar("Oi, eu sou a aivi, Como posso te ajudar'")
+       # self.falar("Oi, eu sou a aivi, Como posso te ajudar'")
 
     def falar(self, audio_string):
         audio.talk(audio_string)
@@ -17,9 +17,9 @@ class Ivy():
 
         voice_data = ''
         if(aguardar_chamar):
-            voice_data = audio.record_audio('en-US')
+            voice_data = audio.record_audio('en-US').lower()
 
-        if (voice_data == 'ivy' and aguardar_chamar):
+        if (voice_data in ['ivy', 'ok', 'okay', 'hockey'] and aguardar_chamar):
             self.falar('Diga' + self.rand_tratamento() + ', Como posso te ajudar')
             voice_data = audio.record_audio()
         else:
@@ -42,7 +42,7 @@ class Ivy():
             self.falar('O meu nome é ' + self.nome)
         if 'pesquisar' in voice_data:
             ivy_pesquisa.pesquisar(self)
-        if 'como está o tempo' in voice_data or 'como está o clima' in voice_data or 'clima' in voice_data:
+        if  voice_data in ['como está o tempo', 'como está o clima', 'clima', 'previsão do tempo']:
             ivy_clima.informar_clima(self)
         if 'como você está' in voice_data:
             self.falar('Estou bem, e você?')

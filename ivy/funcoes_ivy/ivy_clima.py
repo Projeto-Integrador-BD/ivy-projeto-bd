@@ -2,7 +2,6 @@
 from util import info_clima_inpe, minha_localizacao
 
 def informar_clima(ivy):
-    ivy.falar('Tranquilo e favorável')
     ivy.falar("Vou consultar o clima para você")
     location = minha_localizacao.get_localizacao_atual_by_ip()
     coordenadas = location['loc'].split(',')

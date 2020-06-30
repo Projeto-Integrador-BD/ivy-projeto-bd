@@ -6,9 +6,9 @@ def calcular(ivy):
             num1 = float(ivy.ouvir(False))
             ivy.falar('Informe o segundo numero')
             num2 = float(ivy.ouvir(False))
-            ivy.falar('Ok, agora me diga qual operação deseja realizar? somar, subtrair, mutiplicar ou dividir?')
+            ivy.falar('Ok, agora me diga qual operação deseja realizar?')
             operacao = ''
-            while(operacao == '' or operacao not in ['somar','subtrair','mutiplicar','dividir', 'cancelar']):
+            while(operacao == '' or operacao not in ['somar','subtrair','multiplicar','dividir', 'cancelar']):
                 operacao = ivy.ouvir(False)
 
             if 'somar' in operacao:
