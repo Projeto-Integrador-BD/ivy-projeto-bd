@@ -1,7 +1,7 @@
 
 import random
 from util import audio
-from ivy.funcoes_ivy import ivy_calculadora, ivy_gerar_senha, ivy_clima, ivy_cronometro, ivy_pesquisa
+from ivy.funcoes_ivy import ivy_calculadora, ivy_gerar_senha, ivy_clima, ivy_cronometro, ivy_pesquisa, ivy_filme
 
 
 class Ivy():
@@ -52,6 +52,8 @@ class Ivy():
             ivy_calculadora.calcular(self)
         if 'cronômetro' in voice_data or 'cronometrar' in voice_data:
             ivy_cronometro.cronometro_regressivo(self)
+        if 'filme' in voice_data:
+            ivy_filme.buscar_filme(self)
         if 'sair' in voice_data:
             self.falar('Até logo')
             exit()
