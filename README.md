@@ -1,14 +1,21 @@
 ## Projeto Integrador de Banco de Dados
 
-### Funcionalidades Assistente Virtual
+**Integrantes:** 
 
-**Integrantes:** Carlos Henrique / Helen Alevato / José Rangel / Marcelo Fernandes / Pedro Henrique.
+* **Carlos Henrique**:
+* **Helen Alevato**: https://www.linkedin.com/in/helen-alevato-ab15b6177
+* **José Rangel**: https://www.linkedin.com/in/rangel-andrade-38130b65
+* **Marcelo Fernandes**: https://www.linkedin.com/in/marcelo-fernandes-ab18a986
+* **Pedro Henrique**:
 
-**Integrante Masters:** Everton
+**Integrante Masters:** 
+* **Everton Braga**: http://linkedin.com/in/evertonrbraga
 
 **Nome assistente virtual:** IVY
 
 **Objetivo:** Gerenciamento de produtividade pessoal para o dia a dia.
+
+#### Funcionalidades Assistente Virtual
 
 * **Calcule:** A Ivy fará cálculos simples de adição, subtração, multiplicação e divisão. O usuário solicitará o cálculo de dois números e a assistente vai dar o resultado do cálculo.
 * **Cronometro de atenção:** Essa aplicação irá auxiliar o usuário a manter o foco em tarefas de seu trabalho ou estudos evitando distrações ao acessar sites e redes sociais.
