@@ -6,7 +6,7 @@
 * **Helen Alevato**: https://www.linkedin.com/in/helen-alevato-ab15b6177
 * **José Rangel**: https://www.linkedin.com/in/rangel-andrade-38130b65
 * **Marcelo Fernandes**: https://www.linkedin.com/in/marcelo-fernandes-ab18a986
-* **Pedro Henrique**:
+* **Pedro Henrique**: https://www.linkedin.com/in/pedro-silva-8a4b3278
 
 **Integrante Masters:** 
 * **Everton Braga**: http://linkedin.com/in/evertonrbraga
