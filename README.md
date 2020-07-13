@@ -38,5 +38,5 @@
 * **Funcionalidade Cronometro de atenção:** auxilia o usuário a mater o foco;
 * **Funcionalidade Informação de clima:** previsão atual do tempo, verificando se vai fazer sol ou chuva.
 
-### Entrega: 10/07/2020 **Entrga Final**
+### Entrega: 10/07/2020 **Entrga Final - Apresentação:** https://www.youtube.com/watch?v=nHQFg2epm9o
 * **Utilização da API do sexto semestre.**
