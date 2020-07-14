@@ -9,6 +9,7 @@ def calcular(ivy):
             ivy.falar('Ok, agora me diga qual operação deseja realizar?')
             operacao = ''
             while(operacao == '' or operacao not in ['somar','subtrair','multiplicar','dividir', 'cancelar']):
+                ivy.falar('Não existe essa operação')
                 operacao = ivy.ouvir(False)
 
             if 'somar' in operacao:

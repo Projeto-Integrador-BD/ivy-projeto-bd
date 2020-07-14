@@ -1,9 +1,7 @@
 import requests
-import json
-from util import audio
 
 def buscar_filme(ivy):
-    url = "https://r4u.herokuapp.com/getFilme/3"
+    url = "https://r4u.herokuapp.com/getFilme/3" #filmes preferidos
     informacao_retornada = requests.get(url)
     informacao = informacao_retornada.json() 
     print(informacao['filme'])

@@ -8,7 +8,7 @@ class Ivy():
     nome = "Ivy"
     def __init__(self):
         self.falar("Iniciando")
-       # self.falar("Oi, eu sou a aivi, Como posso te ajudar'")
+        self.falar("Oi, eu sou a " + self.nome + ", Como posso te ajudar")
 
     def falar(self, audio_string):
         audio.talk(audio_string)
@@ -17,7 +17,7 @@ class Ivy():
 
         voice_data = ''
         if(aguardar_chamar):
-            voice_data = audio.record_audio('en-US').lower()
+            voice_data = audio.record_audio('en-US').lower().strip()
 
         if (voice_data in ['ivy', 'ok', 'okay', 'hockey'] and aguardar_chamar):
             self.falar('Diga' + self.rand_tratamento() + ', Como posso te ajudar')
@@ -61,7 +61,7 @@ class Ivy():
 
 
     def rand_tratamento(self):
-        num = random.randrange(1, 8)
+        num = random.randrange(1, 9)
         if(num == 1):
             return "meu rei"
         elif(num == 2):
